@@ -9,6 +9,9 @@ pipeline {
         stage('finalize') {
             steps {
                 sh 'echo "The pipeline suceeded!"'
+                sh '''
+                  echo "I am done."
+                '''
             }
         }
     }
