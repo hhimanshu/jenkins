@@ -6,5 +6,10 @@ pipeline {
                 sh 'mvn test'
             }
         }
+        stage('finalize') {
+            steps {
+                sh 'echo "The pipeline suceeded!"'
+            }
+        }
     }
 }
