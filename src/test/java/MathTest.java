@@ -10,6 +10,6 @@ public class MathTest {
 
   @Test
   public void testSubtract() {
-    assertEquals("subtract should be equal", 2, Math.sum(4, 2));
+    assertEquals("subtract should be equal", 2, Math.subtract(4, 2));
   }
 }
