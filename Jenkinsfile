@@ -11,7 +11,7 @@ pipeline {
                 sh 'echo "[Develop] The pipeline suceeded!"'
                 sh '''
                 '''
-                  echo "I am done."
+                  echo "[Develop] I am done."
             }
         }
     }
