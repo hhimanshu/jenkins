@@ -8,10 +8,10 @@ pipeline {
         }
         stage('finalize') {
             steps {
-                sh 'echo "The pipeline suceeded!"'
+                sh 'echo "[Develop] The pipeline suceeded!"'
                 sh '''
-                  echo "I am done."
                 '''
+                  echo "I am done."
             }
         }
     }
